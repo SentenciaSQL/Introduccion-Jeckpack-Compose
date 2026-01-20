@@ -12,9 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.afriasdev.mycomposeapplication.components.MyButtons
+import com.afriasdev.mycomposeapplication.components.MyCheckBox
 import com.afriasdev.mycomposeapplication.components.MyIcon
 import com.afriasdev.mycomposeapplication.components.MyImage
 import com.afriasdev.mycomposeapplication.components.MyNetWorkImage
+import com.afriasdev.mycomposeapplication.components.MySwitch
 import com.afriasdev.mycomposeapplication.components.MyTexFieldParent
 import com.afriasdev.mycomposeapplication.components.MyText
 import com.afriasdev.mycomposeapplication.components.MyTextField
@@ -59,7 +61,9 @@ class MainActivity : ComponentActivity() {
 //                    MyIcon(Modifier.padding(innerPadding))
 //                    MyProgressBar(Modifier.padding(innerPadding))
 //                    MyProgressBarAdvance(Modifier.padding(innerPadding))
-                    ProgressAnimation(Modifier.padding(innerPadding))
+//                    ProgressAnimation(Modifier.padding(innerPadding))
+//                    MySwitch(Modifier.padding(innerPadding))
+                    MyCheckBox(Modifier.padding(innerPadding))
                 }
             }
         }
