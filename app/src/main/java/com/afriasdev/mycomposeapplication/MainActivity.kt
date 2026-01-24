@@ -67,6 +67,11 @@ import com.afriasdev.mycomposeapplication.components.TriStateCheckBox
 import com.afriasdev.mycomposeapplication.components.advance.InteractionSourceExample
 import com.afriasdev.mycomposeapplication.components.advance.MyDerivedState
 import com.afriasdev.mycomposeapplication.components.advance.MyLaunchEffect
+import com.afriasdev.mycomposeapplication.components.animations.FullAnimateAsState
+import com.afriasdev.mycomposeapplication.components.animations.MyAnimateContent
+import com.afriasdev.mycomposeapplication.components.animations.MyAnimatedVisibility
+import com.afriasdev.mycomposeapplication.components.animations.MyContentSize
+import com.afriasdev.mycomposeapplication.components.animations.MyInfiniteTransition
 import com.afriasdev.mycomposeapplication.components.layout.ConstrainChain
 import com.afriasdev.mycomposeapplication.components.layout.ConstraintBarrier
 import com.afriasdev.mycomposeapplication.components.layout.ConstraintExampleGuide
@@ -110,7 +115,13 @@ class MainActivity : ComponentActivity() {
                     },
                     onDismissDialog = {showDialog = false})
 
-                NavigationWrapper()
+//                NavigationWrapper()
+
+//                MyAnimatedVisibility()
+//                FullAnimateAsState()
+//                MyAnimateContent()
+//                MyContentSize()
+                MyInfiniteTransition()
 
 //                MyDrawer(drawerState) {
 //                    Scaffold(
